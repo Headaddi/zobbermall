@@ -1,0 +1,63 @@
+.card{
+    box-shadow: 0 1px 5px -1px gray;
+    max-width: 230px;
+    margin: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+img{
+    width: 230px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+   
+}
+
+.details{
+    padding: 10px 10px 20px 20px;
+}
+
+.details > p{
+    font-size: .7rem;
+    color: gray;
+}
+
+.price{
+    display: flex;
+    
+}
+.mainPrice{
+   padding-right: 20px;
+   font-weight: bold;
+}
+
+.slashedPrice{
+    padding-right: 20px;
+    font-weight: bold;
+    color: gray;
+    text-decoration: line-through;
+}
+
+.percentage{
+    background-color: rgba(255, 0, 0, .1);
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+
+.percentage span{
+    font-size: .5rem;
+    padding: 5px 10px;
+}
+
+button{
+    padding: 5px 40px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}

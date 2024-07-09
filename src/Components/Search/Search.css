@@ -1,0 +1,16 @@
+.search{
+    display: flex;
+    align-items: center;
+    padding: 2px 5px;
+    border-radius: 16px;
+    outline: 1px solid rgba(128, 128, 128, .1);
+    width: max-content;
+    margin-right: 30px;
+    background: rgba(128, 128, 128, .1);
+}
+
+.searchInput{
+    border: none; 
+    width: 500px;
+    background: transparent;
+}

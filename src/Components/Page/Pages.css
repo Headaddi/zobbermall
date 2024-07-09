@@ -1,0 +1,11 @@
+.cardGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px 50px;
+}
+
+h2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 2rem;
+}

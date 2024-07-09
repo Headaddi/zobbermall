@@ -1,0 +1,23 @@
+header{
+    background-color: #ECE3CE;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listMenu{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listItem{
+    margin: 5px 20px;
+    cursor: pointer;
+}
+
+.listItem:hover{
+    font-weight: bolder;
+}
